@@ -113,7 +113,7 @@ def extract_go_assignment_edges(root_node, code):
 # ---------------------------
 # Integrated VDG Construction Across the Go Dataset
 # ---------------------------
-dataset_file = "../data/extracted_go_data.json"
+dataset_file = "../my_data/extracted_go_data.json"
 with open(dataset_file, "r", encoding="utf-8") as f:
     samples = json.load(f)
 

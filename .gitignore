@@ -1,7 +1,15 @@
-/data/extracted_go_data.json
-/data/extracted_java_data.json
-/data/extracted_python_data.json
+/my_data/extracted_go_data.json
+/my_data/extracted_java_data.json
+/my_data/extracted_python_data.json
 
 /Graphs/Visualization/global_python_variable_dependency_graph.png
 /Graphs/Visualization/global_java_variable_dependency_graph.png
 /Graphs/Visualization/global_go_variable_dependency_graph.png
+
+
+/saved
+
+/VarCLR/wandb
+
+/VarCLR/varclr.egg-info
+

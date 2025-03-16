@@ -63,18 +63,18 @@ print(tree.root_node)
 identifiers = get_identifier(code, tree.root_node)
 print("Identifiers found:", identifiers)
 
-with open("../data/extracted_go_data.json", 'r', encoding='utf-8') as f:
+with open("../my_data/extracted_go_data.json", 'r', encoding='utf-8') as f:
     go_data = json.load(f)
 
-with open("../data/extracted_python_data.json", 'r', encoding='utf-8') as f:
+with open("../my_data/extracted_python_data.json", 'r', encoding='utf-8') as f:
     python_data = json.load(f)
 
-with open("../data/extracted_java_data.json", 'r', encoding='utf-8') as f:
+with open("../my_data/extracted_java_data.json", 'r', encoding='utf-8') as f:
     java_data = json.load(f)
 
 
 def print_identifiers(parser, data):
-    """make sure the parser language and data language match"""
+    """make sure the parser language and my_data language match"""
     for i, sample in enumerate(data[:20]):
         function_code = sample.get("function_code", "")
         if not function_code:

@@ -143,7 +143,7 @@ def extract_usage_edges(root_node, code):
 # ---------------------------
 # Integrated VDG Construction Across the Java Dataset
 # ---------------------------
-dataset_file = "../data/extracted_java_data.json"
+dataset_file = "../my_data/extracted_java_data.json"
 with open(dataset_file, "r", encoding="utf-8") as f:
     samples = json.load(f)
 
