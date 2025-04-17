@@ -1,0 +1,5246 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d2" for="edge" attr.name="edge_type" attr.type="string"/>
+<key id="d1" for="edge" attr.name="virtual_weight" attr.type="long"/>
+<key id="d0" for="node" attr.name="x" attr.type="string"/>
+<graph edgedefault="directed"><node id="labels">
+  <data key="d0">3,24,6,0</data>
+</node>
+<node id="toy_logistic_data">
+  <data key="d0">1,8,17,0</data>
+</node>
+<node id="np">
+  <data key="d0">4,53,2,0</data>
+</node>
+<node id="random_weights">
+  <data key="d0">1,8,14,0</data>
+</node>
+<node id="design_matrix">
+  <data key="d0">1,8,13,0</data>
+</node>
+<node id="weights_prior_stddev">
+  <data key="d0">1,8,20,0</data>
+</node>
+<node id="random_bias">
+  <data key="d0">1,8,11,0</data>
+</node>
+<node id="logits">
+  <data key="d0">2,14,6,0</data>
+</node>
+<node id="p_labels">
+  <data key="d0">1,8,8,0</data>
+</node>
+<node id="w2">
+  <data key="d0">1,8,2,0</data>
+</node>
+<node id="x2s">
+  <data key="d0">1,8,3,0</data>
+</node>
+<node id="w1">
+  <data key="d0">1,8,2,0</data>
+</node>
+<node id="fig">
+  <data key="d0">1,8,3,0</data>
+</node>
+<node id="x1s">
+  <data key="d0">1,8,3,0</data>
+</node>
+<node id="w">
+  <data key="d0">1,8,1,0</data>
+</node>
+<node id="b">
+  <data key="d0">3,30,1,0</data>
+</node>
+<node id="canvas">
+  <data key="d0">1,8,6,0</data>
+</node>
+<node id="figsize">
+  <data key="d0">1,8,7,0</data>
+</node>
+<node id="batch_labels">
+  <data key="d0">1,8,12,0</data>
+</node>
+<node id="batch_features">
+  <data key="d0">1,8,14,0</data>
+</node>
+<node id="training_iterator">
+  <data key="d0">1,8,17,0</data>
+</node>
+<node id="training_dataset">
+  <data key="d0">1,8,16,0</data>
+</node>
+<node id="build_input_pipeline">
+  <data key="d0">1,8,20,0</data>
+</node>
+<node id="batch_size">
+  <data key="d0">1,8,10,0</data>
+</node>
+<node id="y">
+  <data key="d0">5,62,1,1</data>
+</node>
+<node id="x">
+  <data key="d0">15,179,1,1</data>
+</node>
+<node id="training_batches">
+  <data key="d0">1,8,16,0</data>
+</node>
+<node id="assertions">
+  <data key="d0">2,2,10,0</data>
+</node>
+<node id="_maybe_check_valid_map_values">
+  <data key="d0">1,1,29,0</data>
+</node>
+<node id="first_trace">
+  <data key="d0">1,11,11,0</data>
+</node>
+<node id="trace_fn_wrapper">
+  <data key="d0">1,11,16,0</data>
+</node>
+<node id="tf">
+  <data key="d0">32,380,2,1</data>
+</node>
+<node id="trace">
+  <data key="d0">1,11,5,0</data>
+</node>
+<node id="fn_wrapper">
+  <data key="d0">1,11,10,0</data>
+</node>
+<node id="fn">
+  <data key="d0">3,25,2,0</data>
+</node>
+<node id="prepend">
+  <data key="d0">1,11,7,0</data>
+</node>
+<node id="state">
+  <data key="d0">3,63,5,0</data>
+</node>
+<node id="trace_fn">
+  <data key="d0">2,44,8,0</data>
+</node>
+<node id="full_trace">
+  <data key="d0">1,11,10,0</data>
+</node>
+<node id="call_fn">
+  <data key="d0">1,1,7,0</data>
+</node>
+<node id="args">
+  <data key="d0">4,51,4,0</data>
+</node>
+<node id="call_and_grads">
+  <data key="d0">1,5,14,0</data>
+</node>
+<node id="ret">
+  <data key="d0">2,38,3,0</data>
+</node>
+<node id="grads">
+  <data key="d0">1,5,5,0</data>
+</node>
+<node id="extra">
+  <data key="d0">2,17,5,0</data>
+</node>
+<node id="from_structure">
+  <data key="d0">1,5,14,0</data>
+</node>
+<node id="flat_from">
+  <data key="d0">1,5,9,0</data>
+</node>
+<node id="maybe_broadcast_structure">
+  <data key="d0">1,5,25,0</data>
+</node>
+<node id="flat_to">
+  <data key="d0">1,5,7,0</data>
+</node>
+<node id="to_structure">
+  <data key="d0">1,5,12,0</data>
+</node>
+<node id="wrapper">
+  <data key="d0">1,12,7,0</data>
+</node>
+<node id="event_ndims">
+  <data key="d0">2,45,11,0</data>
+</node>
+<node id="log_prob_fn">
+  <data key="d0">1,12,11,0</data>
+</node>
+<node id="transform_log_prob_fn">
+  <data key="d0">1,12,21,0</data>
+</node>
+<node id="original_space_args">
+  <data key="d0">1,12,19,0</data>
+</node>
+<node id="original_space_log_prob">
+  <data key="d0">1,12,23,0</data>
+</node>
+<node id="bijector_">
+  <data key="d0">1,12,9,0</data>
+</node>
+<node id="bijector">
+  <data key="d0">1,12,8,0</data>
+</node>
+<node id="leapfrog_step_state">
+  <data key="d0">1,19,19,0</data>
+</node>
+<node id="leapfrog_step">
+  <data key="d0">1,19,13,0</data>
+</node>
+<node id="target_log_prob">
+  <data key="d0">2,52,15,0</data>
+</node>
+<node id="state_extra">
+  <data key="d0">2,52,11,0</data>
+</node>
+<node id="momentum_grads">
+  <data key="d0">1,19,14,0</data>
+</node>
+<node id="target_log_prob_fn">
+  <data key="d0">2,52,18,0</data>
+</node>
+<node id="kinetic_energy_fn">
+  <data key="d0">2,52,17,0</data>
+</node>
+<node id="momentum">
+  <data key="d0">2,52,8,0</data>
+</node>
+<node id="m">
+  <data key="d0">2,28,1,0</data>
+</node>
+<node id="step_size">
+  <data key="d0">2,52,9,0</data>
+</node>
+<node id="_">
+  <data key="d0">6,112,1,1</data>
+</node>
+<node id="kinetic_energy">
+  <data key="d0">2,52,14,0</data>
+</node>
+<node id="state_grads">
+  <data key="d0">2,52,11,0</data>
+</node>
+<node id="kinetic_energy_extra">
+  <data key="d0">1,19,20,0</data>
+</node>
+<node id="s">
+  <data key="d0">1,19,1,0</data>
+</node>
+<node id="sg">
+  <data key="d0">1,19,2,0</data>
+</node>
+<node id="mg">
+  <data key="d0">1,19,2,0</data>
+</node>
+<node id="metropolis_hastings_step">
+  <data key="d0">1,14,24,0</data>
+</node>
+<node id="p">
+  <data key="d0">2,24,1,0</data>
+</node>
+<node id="log_uniform">
+  <data key="d0">1,14,11,0</data>
+</node>
+<node id="value">
+  <data key="d0">8,131,5,1</data>
+</node>
+<node id="name">
+  <data key="d0">7,105,4,1</data>
+</node>
+<node id="log_accept_ratio">
+  <data key="d0">2,47,16,0</data>
+</node>
+<node id="next_state">
+  <data key="d0">1,14,10,0</data>
+</node>
+<node id="c">
+  <data key="d0">1,14,1,0</data>
+</node>
+<node id="is_accepted">
+  <data key="d0">2,47,11,0</data>
+</node>
+<node id="energy_change">
+  <data key="d0">2,47,13,0</data>
+</node>
+<node id="current_state">
+  <data key="d0">2,47,13,0</data>
+</node>
+<node id="flat_current">
+  <data key="d0">1,14,12,0</data>
+</node>
+<node id="flat_proposed">
+  <data key="d0">1,14,13,0</data>
+</node>
+<node id="proposed_state">
+  <data key="d0">2,47,14,0</data>
+</node>
+<node id="leapfrog_state">
+  <data key="d0">1,33,14,0</data>
+</node>
+<node id="leapfrog_wrapper_state">
+  <data key="d0">1,33,22,0</data>
+</node>
+<node id="num_leapfrog_steps">
+  <data key="d0">1,33,18,0</data>
+</node>
+<node id="momentum_sample_fn">
+  <data key="d0">1,33,18,0</data>
+</node>
+<node id="current_energy">
+  <data key="d0">1,33,14,0</data>
+</node>
+<node id="hmc_state">
+  <data key="d0">1,33,9,0</data>
+</node>
+<node id="leapfrog_extra">
+  <data key="d0">1,33,14,0</data>
+</node>
+<node id="leapfrog_trace">
+  <data key="d0">1,33,14,0</data>
+</node>
+<node id="leapfrog_trace_wrapper_fn">
+  <data key="d0">1,33,25,0</data>
+</node>
+<node id="leapfrog_wrapper">
+  <data key="d0">1,33,16,0</data>
+</node>
+<node id="proposed_hmc_state">
+  <data key="d0">1,33,18,0</data>
+</node>
+<node id="hamiltonian_monte_carlo">
+  <data key="d0">1,33,23,0</data>
+</node>
+<node id="seed">
+  <data key="d0">6,106,4,1</data>
+</node>
+<node id="proposed_energy">
+  <data key="d0">1,33,15,0</data>
+</node>
+<node id="new_control">
+  <data key="d0">1,7,11,0</data>
+</node>
+<node id="set_point">
+  <data key="d0">1,7,9,0</data>
+</node>
+<node id="adaptation_rate">
+  <data key="d0">1,7,15,0</data>
+</node>
+<node id="output">
+  <data key="d0">1,7,6,0</data>
+</node>
+<node id="sign_adaptation">
+  <data key="d0">1,7,15,0</data>
+</node>
+<node id="control">
+  <data key="d0">1,7,7,0</data>
+</node>
+<node id="_get_new_control">
+  <data key="d0">1,7,16,0</data>
+</node>
+<node id="dilation">
+  <data key="d0">1,8,8,0</data>
+</node>
+<node id="compute_output_shape">
+  <data key="d0">1,8,20,0</data>
+</node>
+<node id="padding">
+  <data key="d0">1,8,7,0</data>
+</node>
+<node id="input_shape">
+  <data key="d0">1,8,11,0</data>
+</node>
+<node id="self">
+  <data key="d0">7,39,4,1</data>
+</node>
+<node id="space">
+  <data key="d0">1,8,5,0</data>
+</node>
+<node id="stride">
+  <data key="d0">1,8,6,0</data>
+</node>
+<node id="new_dim">
+  <data key="d0">1,8,7,0</data>
+</node>
+<node id="function">
+  <data key="d0">1,8,8,0</data>
+</node>
+<node id="function_type">
+  <data key="d0">2,12,13,0</data>
+</node>
+<node id="function_key">
+  <data key="d0">2,12,12,0</data>
+</node>
+<node id="base_config">
+  <data key="d0">2,11,11,0</data>
+</node>
+<node id="function_name">
+  <data key="d0">1,8,13,0</data>
+</node>
+<node id="config">
+  <data key="d0">3,15,6,0</data>
+</node>
+<node id="get_config">
+  <data key="d0">2,11,10,0</data>
+</node>
+<node id="from_config">
+  <data key="d0">1,4,11,0</data>
+</node>
+<node id="serial">
+  <data key="d0">1,4,6,0</data>
+</node>
+<node id="_as_tensor">
+  <data key="d0">1,2,10,0</data>
+</node>
+<node id="perturb_diag">
+  <data key="d0">1,18,12,0</data>
+</node>
+<node id="identity_multiplier">
+  <data key="d0">1,18,19,0</data>
+</node>
+<node id="loc">
+  <data key="d0">2,24,3,0</data>
+</node>
+<node id="scale_tril">
+  <data key="d0">1,18,10,0</data>
+</node>
+<node id="shift">
+  <data key="d0">2,47,5,0</data>
+</node>
+<node id="tril">
+  <data key="d0">1,18,4,0</data>
+</node>
+<node id="_create_scale_operator">
+  <data key="d0">1,18,22,0</data>
+</node>
+<node id="dtype">
+  <data key="d0">12,183,5,1</data>
+</node>
+<node id="validate_args">
+  <data key="d0">1,18,13,0</data>
+</node>
+<node id="distribution_util">
+  <data key="d0">3,22,17,0</data>
+</node>
+<node id="perturb_factor">
+  <data key="d0">1,18,14,0</data>
+</node>
+<node id="assert_positive">
+  <data key="d0">1,18,15,0</data>
+</node>
+<node id="diag">
+  <data key="d0">1,18,4,0</data>
+</node>
+<node id="scale_identity_multiplier">
+  <data key="d0">1,18,25,0</data>
+</node>
+<node id="axis">
+  <data key="d0">8,140,4,1</data>
+</node>
+<node id="shape_hint">
+  <data key="d0">1,18,10,0</data>
+</node>
+<node id="scale">
+  <data key="d0">3,42,5,0</data>
+</node>
+<node id="scale_diag">
+  <data key="d0">2,30,10,0</data>
+</node>
+<node id="seed_stream">
+  <data key="d0">2,24,11,0</data>
+</node>
+<node id="random_walk_normal_fn">
+  <data key="d0">1,12,21,0</data>
+</node>
+<node id="scales">
+  <data key="d0">2,24,6,0</data>
+</node>
+<node id="mcmc_util">
+  <data key="d0">2,24,9,0</data>
+</node>
+<node id="next_state_parts">
+  <data key="d0">2,24,16,0</data>
+</node>
+<node id="scale_part">
+  <data key="d0">2,24,10,0</data>
+</node>
+<node id="state_part">
+  <data key="d0">2,24,10,0</data>
+</node>
+<node id="salt">
+  <data key="d0">5,73,4,1</data>
+</node>
+<node id="_fn">
+  <data key="d0">2,24,3,0</data>
+</node>
+<node id="state_parts">
+  <data key="d0">2,24,11,0</data>
+</node>
+<node id="random_walk_uniform_fn">
+  <data key="d0">1,12,22,0</data>
+</node>
+<node id="reduce_dims">
+  <data key="d0">1,10,11,0</data>
+</node>
+<node id="q">
+  <data key="d0">1,10,1,0</data>
+</node>
+<node id="tensorshape_util">
+  <data key="d0">1,10,16,0</data>
+</node>
+<node id="_kl_independent">
+  <data key="d0">1,10,15,0</data>
+</node>
+<node id="num_reduce_dims">
+  <data key="d0">1,10,15,0</data>
+</node>
+<node id="i">
+  <data key="d0">1,10,1,0</data>
+</node>
+<node id="prefer_static">
+  <data key="d0">2,13,13,0</data>
+</node>
+<node id="a">
+  <data key="d0">3,52,1,0</data>
+</node>
+<node id="ndims">
+  <data key="d0">2,12,5,0</data>
+</node>
+<node id="_get_default_reinterpreted_batch_ndims">
+  <data key="d0">1,3,38,0</data>
+</node>
+<node id="distribution">
+  <data key="d0">1,3,12,0</data>
+</node>
+<node id="expanded_x">
+  <data key="d0">1,2,10,0</data>
+</node>
+<node id="_expand_to_event_rank">
+  <data key="d0">1,2,21,0</data>
+</node>
+<node id="distribution_entropies">
+  <data key="d0">1,9,22,0</data>
+</node>
+<node id="entropy_lower_bound">
+  <data key="d0">1,9,19,0</data>
+</node>
+<node id="partial_entropies">
+  <data key="d0">1,9,17,0</data>
+</node>
+<node id="log_probs">
+  <data key="d0">2,16,9,0</data>
+</node>
+<node id="d">
+  <data key="d0">1,9,1,0</data>
+</node>
+<node id="c_p">
+  <data key="d0">1,9,3,0</data>
+</node>
+<node id="cat_probs">
+  <data key="d0">2,16,9,0</data>
+</node>
+<node id="which_softmax">
+  <data key="d0">1,7,13,0</data>
+</node>
+<node id="_cat_probs">
+  <data key="d0">1,7,10,0</data>
+</node>
+<node id="num">
+  <data key="d0">1,7,3,0</data>
+</node>
+<node id="_maybe_validate_args">
+  <data key="d0">1,1,20,0</data>
+</node>
+<node id="coeffs">
+  <data key="d0">3,46,6,0</data>
+</node>
+<node id="logistic_regression">
+  <data key="d0">1,6,19,0</data>
+</node>
+<node id="counts">
+  <data key="d0">1,10,6,0</data>
+</node>
+<node id="specific_category">
+  <data key="d0">1,10,17,0</data>
+</node>
+<node id="features">
+  <data key="d0">1,10,8,0</data>
+</node>
+<node id="data">
+  <data key="d0">1,10,4,0</data>
+</node>
+<node id="covertype">
+  <data key="d0">1,10,9,0</data>
+</node>
+<node id="return_counts">
+  <data key="d0">1,10,13,0</data>
+</node>
+<node id="d2">
+  <data key="d0">1,6,2,0</data>
+</node>
+<node id="digamma_diff">
+  <data key="d0">1,6,12,0</data>
+</node>
+<node id="d1">
+  <data key="d0">1,6,2,0</data>
+</node>
+<node id="concentration_diff">
+  <data key="d0">1,6,18,0</data>
+</node>
+<node id="_kl_dirichlet_dirichlet">
+  <data key="d0">1,6,23,0</data>
+</node>
+<node id="digamma_sum_d1">
+  <data key="d0">1,6,14,0</data>
+</node>
+<node id="_maybe_assert_valid_concentration">
+  <data key="d0">1,2,33,0</data>
+</node>
+<node id="concentration">
+  <data key="d0">1,2,13,0</data>
+</node>
+<node id="_maybe_assert_valid_sample">
+  <data key="d0">1,2,26,0</data>
+</node>
+<node id="pad_length">
+  <data key="d0">1,29,10,0</data>
+</node>
+<node id="util">
+  <data key="d0">1,29,4,0</data>
+</node>
+<node id="denominator">
+  <data key="d0">1,29,11,0</data>
+</node>
+<node id="back">
+  <data key="d0">1,29,4,0</data>
+</node>
+<node id="max_lags">
+  <data key="d0">1,29,8,0</data>
+</node>
+<node id="chopped_shape">
+  <data key="d0">1,29,13,0</data>
+</node>
+<node id="x_rotated">
+  <data key="d0">1,29,9,0</data>
+</node>
+<node id="count">
+  <data key="d0">1,29,5,0</data>
+</node>
+<node id="shifted_product_rotated">
+  <data key="d0">1,29,23,0</data>
+</node>
+<node id="fft_x_rotated_pad">
+  <data key="d0">1,29,17,0</data>
+</node>
+<node id="max_lags_">
+  <data key="d0">1,29,9,0</data>
+</node>
+<node id="keepdims">
+  <data key="d0">5,80,8,1</data>
+</node>
+<node id="spectral_density">
+  <data key="d0">1,29,16,0</data>
+</node>
+<node id="shifted_product_chopped">
+  <data key="d0">1,29,23,0</data>
+</node>
+<node id="input_tensor">
+  <data key="d0">4,102,12,0</data>
+</node>
+<node id="x_rotated_pad">
+  <data key="d0">1,29,13,0</data>
+</node>
+<node id="target_length">
+  <data key="d0">1,29,13,0</data>
+</node>
+<node id="x_len_float64">
+  <data key="d0">1,29,13,0</data>
+</node>
+<node id="rank">
+  <data key="d0">1,29,4,0</data>
+</node>
+<node id="shifted_product">
+  <data key="d0">1,29,15,0</data>
+</node>
+<node id="x_len">
+  <data key="d0">1,29,5,0</data>
+</node>
+<node id="auto_correlation">
+  <data key="d0">1,29,16,0</data>
+</node>
+<node id="cov">
+  <data key="d0">2,41,3,0</data>
+</node>
+<node id="sample_axis">
+  <data key="d0">4,51,11,0</data>
+</node>
+<node id="cholesky_covariance">
+  <data key="d0">1,8,19,0</data>
+</node>
+<node id="event_axis">
+  <data key="d0">4,51,10,0</data>
+</node>
+<node id="perm_for_xy">
+  <data key="d0">1,33,11,0</data>
+</node>
+<node id="sample_ndims">
+  <data key="d0">1,33,12,0</data>
+</node>
+<node id="sample_shape">
+  <data key="d0">1,33,12,0</data>
+</node>
+<node id="y_permed_flat">
+  <data key="d0">1,33,13,0</data>
+</node>
+<node id="n_samples">
+  <data key="d0">1,33,9,0</data>
+</node>
+<node id="event_shape">
+  <data key="d0">1,33,11,0</data>
+</node>
+<node id="n_events">
+  <data key="d0">1,33,8,0</data>
+</node>
+<node id="batch_shape">
+  <data key="d0">1,33,11,0</data>
+</node>
+<node id="batch_axis">
+  <data key="d0">1,33,10,0</data>
+</node>
+<node id="x_permed">
+  <data key="d0">1,33,8,0</data>
+</node>
+<node id="perm">
+  <data key="d0">1,33,4,0</data>
+</node>
+<node id="x_permed_flat">
+  <data key="d0">1,33,13,0</data>
+</node>
+<node id="covariance">
+  <data key="d0">1,33,10,0</data>
+</node>
+<node id="e_len">
+  <data key="d0">1,33,5,0</data>
+</node>
+<node id="input">
+  <data key="d0">1,33,5,0</data>
+</node>
+<node id="y_permed">
+  <data key="d0">1,33,8,0</data>
+</node>
+<node id="squeeze_axis">
+  <data key="d0">1,33,12,0</data>
+</node>
+<node id="e_start">
+  <data key="d0">1,33,7,0</data>
+</node>
+<node id="batch_ndims">
+  <data key="d0">1,33,11,0</data>
+</node>
+<node id="correlation">
+  <data key="d0">1,5,11,0</data>
+</node>
+<node id="stddev">
+  <data key="d0">1,1,6,0</data>
+</node>
+<node id="variance">
+  <data key="d0">1,5,8,0</data>
+</node>
+<node id="values_">
+  <data key="d0">1,6,7,0</data>
+</node>
+<node id="values">
+  <data key="d0">1,6,6,0</data>
+</node>
+<node id="_make_list_or_1d_tensor">
+  <data key="d0">1,6,23,0</data>
+</node>
+<node id="positive_axis">
+  <data key="d0">1,9,13,0</data>
+</node>
+<node id="_make_positive_axis">
+  <data key="d0">1,9,19,0</data>
+</node>
+<node id="ndims_">
+  <data key="d0">1,9,6,0</data>
+</node>
+<node id="_squeeze">
+  <data key="d0">1,8,8,0</data>
+</node>
+<node id="keep_axis">
+  <data key="d0">1,8,9,0</data>
+</node>
+<node id="_kl_normal_normal">
+  <data key="d0">1,10,17,0</data>
+</node>
+<node id="two">
+  <data key="d0">1,10,3,0</data>
+</node>
+<node id="n_b">
+  <data key="d0">1,10,3,0</data>
+</node>
+<node id="s_b_squared">
+  <data key="d0">1,10,11,0</data>
+</node>
+<node id="s_a_squared">
+  <data key="d0">1,10,11,0</data>
+</node>
+<node id="one">
+  <data key="d0">1,10,3,0</data>
+</node>
+<node id="n_a">
+  <data key="d0">1,10,3,0</data>
+</node>
+<node id="ratio">
+  <data key="d0">1,10,5,0</data>
+</node>
+<node id="half">
+  <data key="d0">1,10,4,0</data>
+</node>
+<node id="_z">
+  <data key="d0">1,2,2,0</data>
+</node>
+<node id="z">
+  <data key="d0">1,2,1,0</data>
+</node>
+<node id="_inv_z">
+  <data key="d0">1,2,6,0</data>
+</node>
+<node id="fixed_entries">
+  <data key="d0">1,6,13,0</data>
+</node>
+<node id="bottom_right_entry">
+  <data key="d0">1,6,18,0</data>
+</node>
+<node id="semilocal_linear_trend_transition_matrix">
+  <data key="d0">1,6,40,0</data>
+</node>
+<node id="autoregressive_coef_mask">
+  <data key="d0">1,6,24,0</data>
+</node>
+<node id="autoregressive_coef">
+  <data key="d0">2,18,19,0</data>
+</node>
+<node id="semilocal_linear_trend_transition_noise">
+  <data key="d0">1,12,39,0</data>
+</node>
+<node id="bias">
+  <data key="d0">1,12,4,0</data>
+</node>
+<node id="broadcast_ones">
+  <data key="d0">1,12,14,0</data>
+</node>
+<node id="tfd">
+  <data key="d0">1,12,3,0</data>
+</node>
+<node id="slope_scale">
+  <data key="d0">1,12,11,0</data>
+</node>
+<node id="level_scale">
+  <data key="d0">1,12,11,0</data>
+</node>
+<node id="slope_mean">
+  <data key="d0">1,12,10,0</data>
+</node>
+<node id="broadcast_batch_shape">
+  <data key="d0">1,12,21,0</data>
+</node>
+<node id="stream">
+  <data key="d0">3,49,6,0</data>
+</node>
+<node id="zero_correction">
+  <data key="d0">1,24,15,0</data>
+</node>
+<node id="num_results">
+  <data key="d0">2,33,11,0</data>
+</node>
+<node id="shape">
+  <data key="d0">2,40,5,0</data>
+</node>
+<node id="weight_mask">
+  <data key="d0">1,24,11,0</data>
+</node>
+<node id="sample_halton_sequence">
+  <data key="d0">1,24,22,0</data>
+</node>
+<node id="radixes">
+  <data key="d0">2,40,7,0</data>
+</node>
+<node id="weights">
+  <data key="d0">1,24,7,0</data>
+</node>
+<node id="sequence_indices">
+  <data key="d0">1,24,16,0</data>
+</node>
+<node id="_PRIMES">
+  <data key="d0">1,24,7,0</data>
+</node>
+<node id="exponents_by_axes">
+  <data key="d0">1,24,17,0</data>
+</node>
+<node id="base_values">
+  <data key="d0">1,24,11,0</data>
+</node>
+<node id="max_size">
+  <data key="d0">1,24,8,0</data>
+</node>
+<node id="dim">
+  <data key="d0">1,24,3,0</data>
+</node>
+<node id="indices">
+  <data key="d0">1,24,7,0</data>
+</node>
+<node id="max_sizes_by_axes">
+  <data key="d0">1,24,17,0</data>
+</node>
+<node id="capped_exponents">
+  <data key="d0">1,24,16,0</data>
+</node>
+<node id="radix_offsets">
+  <data key="d0">1,16,13,0</data>
+</node>
+<node id="perms">
+  <data key="d0">1,16,5,0</data>
+</node>
+<node id="permuted_coeffs">
+  <data key="d0">1,16,15,0</data>
+</node>
+<node id="_randomize">
+  <data key="d0">1,16,10,0</data>
+</node>
+<node id="given_dtype">
+  <data key="d0">1,16,11,0</data>
+</node>
+<node id="num_coeffs">
+  <data key="d0">1,16,10,0</data>
+</node>
+<node id="radix_sum">
+  <data key="d0">1,16,9,0</data>
+</node>
+<node id="offsets">
+  <data key="d0">1,16,7,0</data>
+</node>
+<node id="generate_one">
+  <data key="d0">1,9,12,0</data>
+</node>
+<node id="sample_range">
+  <data key="d0">1,9,12,0</data>
+</node>
+<node id="_get_permutations">
+  <data key="d0">1,9,17,0</data>
+</node>
+<edge source="labels" target="toy_logistic_data">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="labels" target="logistic_regression">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="labels" target="counts">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="labels" target="_">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="labels" target="covertype">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="labels" target="logits">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="labels" target="np">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="labels" target="tf">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="np" target="random_weights">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="np" target="design_matrix">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="np" target="logits">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="np" target="p_labels">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="np" target="labels">
+  <data key="d1">3</data>
+  <data key="d2">dependency+virtual</data>
+</edge>
+<edge source="np" target="toy_logistic_data">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="np" target="features">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="np" target="x_len_float64">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="np" target="target_length">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="np" target="pad_length">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="np" target="values_">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="np" target="dtype">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="np" target="tf">
+  <data key="d1">3</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="np" target="name">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="np" target="value">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="random_weights" target="toy_logistic_data">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="weights_prior_stddev" target="random_weights">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="random_bias" target="logits">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="random_bias" target="toy_logistic_data">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="logits" target="labels">
+  <data key="d1">3</data>
+  <data key="d2">dependency+virtual</data>
+</edge>
+<edge source="p_labels" target="labels">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="w2" target="x2s">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="w1" target="x2s">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="fig" target="canvas">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="x1s" target="x2s">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="w" target="w2">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="w" target="w1">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="b" target="x2s">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="b" target="original_space_args">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="b" target="q">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="b" target="tf">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="figsize" target="fig">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="batch_labels" target="build_input_pipeline">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="batch_features" target="build_input_pipeline">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="batch_size" target="training_batches">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="y" target="training_dataset">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="y" target="prepend">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="y" target="y_permed">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="y" target="sample_axis">
+  <data key="d1">4</data>
+  <data key="d2">dependency+virtual</data>
+</edge>
+<edge source="y" target="keepdims">
+  <data key="d1">4</data>
+  <data key="d2">dependency+virtual</data>
+</edge>
+<edge source="y" target="correlation">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="y" target="variance">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="y" target="x">
+  <data key="d1">5</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="y" target="tf">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="y" target="event_axis">
+  <data key="d1">3</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="x" target="training_dataset">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="x" target="prepend">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="x" target="args">
+  <data key="d1">3</data>
+  <data key="d2">dependency+virtual</data>
+</edge>
+<edge source="x" target="original_space_args">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="x" target="event_ndims">
+  <data key="d1">3</data>
+  <data key="d2">dependency+virtual</data>
+</edge>
+<edge source="x" target="state">
+  <data key="d1">4</data>
+  <data key="d2">dependency+virtual</data>
+</edge>
+<edge source="x" target="ret">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="x" target="_as_tensor">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="x" target="expanded_x">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="x" target="_maybe_assert_valid_sample">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="x" target="rank">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="x" target="x_rotated">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="x" target="dtype">
+  <data key="d1">5</data>
+  <data key="d2">dependency+virtual</data>
+</edge>
+<edge source="x" target="y">
+  <data key="d1">6</data>
+  <data key="d2">dependency+virtual</data>
+</edge>
+<edge source="x" target="x_permed">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="x" target="sample_axis">
+  <data key="d1">5</data>
+  <data key="d2">dependency+virtual</data>
+</edge>
+<edge source="x" target="keepdims">
+  <data key="d1">6</data>
+  <data key="d2">dependency+virtual</data>
+</edge>
+<edge source="x" target="correlation">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="x" target="variance">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="x" target="_z">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="x" target="tf">
+  <data key="d1">9</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="x" target="trace_fn">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="x" target="_">
+  <data key="d1">4</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="x" target="kinetic_energy">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="x" target="kinetic_energy_fn">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="x" target="momentum">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="x" target="state_extra">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="x" target="state_grads">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="x" target="step_size">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="x" target="target_log_prob">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="x" target="target_log_prob_fn">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="x" target="axis">
+  <data key="d1">3</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="x" target="input_tensor">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="x" target="name">
+  <data key="d1">3</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="x" target="value">
+  <data key="d1">4</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="x" target="cov">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="x" target="event_axis">
+  <data key="d1">4</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="training_batches" target="training_iterator">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="assertions" target="_maybe_check_valid_map_values">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="assertions" target="_maybe_validate_args">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="first_trace" target="state">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="trace_fn_wrapper" target="full_trace">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="trace_fn_wrapper" target="state">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="tf" target="full_trace">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="tf" target="state">
+  <data key="d1">4</data>
+  <data key="d2">dependency+virtual</data>
+</edge>
+<edge source="tf" target="prepend">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="tf" target="fn_wrapper">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="tf" target="trace_fn_wrapper">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="tf" target="trace">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="tf" target="maybe_broadcast_structure">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="tf" target="event_ndims">
+  <data key="d1">3</data>
+  <data key="d2">dependency+virtual</data>
+</edge>
+<edge source="tf" target="wrapper">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="tf" target="transform_log_prob_fn">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="tf" target="momentum">
+  <data key="d1">3</data>
+  <data key="d2">dependency+virtual</data>
+</edge>
+<edge source="tf" target="state_grads">
+  <data key="d1">3</data>
+  <data key="d2">dependency+virtual</data>
+</edge>
+<edge source="tf" target="current_state">
+  <data key="d1">3</data>
+  <data key="d2">dependency+virtual</data>
+</edge>
+<edge source="tf" target="proposed_state">
+  <data key="d1">3</data>
+  <data key="d2">dependency+virtual</data>
+</edge>
+<edge source="tf" target="log_uniform">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="tf" target="ret">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="tf" target="kinetic_energy_fn">
+  <data key="d1">3</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="tf" target="sign_adaptation">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="tf" target="compute_output_shape">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="tf" target="config">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="tf" target="_as_tensor">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="tf" target="_create_scale_operator">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="tf" target="next_state_parts">
+  <data key="d1">3</data>
+  <data key="d2">dependency+virtual</data>
+</edge>
+<edge source="tf" target="_kl_independent">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="tf" target="entropy_lower_bound">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="tf" target="which_softmax">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="tf" target="coeffs">
+  <data key="d1">4</data>
+  <data key="d2">dependency+virtual</data>
+</edge>
+<edge source="tf" target="labels">
+  <data key="d1">3</data>
+  <data key="d2">dependency+virtual</data>
+</edge>
+<edge source="tf" target="features">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="tf" target="digamma_sum_d1">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="tf" target="digamma_diff">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="tf" target="_kl_dirichlet_dirichlet">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="tf" target="target_length">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="tf" target="spectral_density">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="tf" target="denominator">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="tf" target="sample_axis">
+  <data key="d1">3</data>
+  <data key="d2">dependency+virtual</data>
+</edge>
+<edge source="tf" target="cholesky_covariance">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="tf" target="batch_axis">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="tf" target="_">
+  <data key="d1">7</data>
+  <data key="d2">dependency+virtual</data>
+</edge>
+<edge source="tf" target="event_axis">
+  <data key="d1">3</data>
+  <data key="d2">dependency+virtual</data>
+</edge>
+<edge source="tf" target="batch_shape">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="tf" target="event_shape">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="tf" target="sample_shape">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="tf" target="x_permed_flat">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="tf" target="y_permed_flat">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="tf" target="cov">
+  <data key="d1">3</data>
+  <data key="d2">dependency+virtual</data>
+</edge>
+<edge source="tf" target="covariance">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="tf" target="stddev">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="tf" target="_make_list_or_1d_tensor">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="tf" target="ndims">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="tf" target="axis">
+  <data key="d1">9</data>
+  <data key="d2">dependency+virtual</data>
+</edge>
+<edge source="tf" target="keep_axis">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="tf" target="_squeeze">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="tf" target="_kl_normal_normal">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="tf" target="semilocal_linear_trend_transition_matrix">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="tf" target="bias">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="tf" target="exponents_by_axes">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="tf" target="capped_exponents">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="tf" target="sample_halton_sequence">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="tf" target="num_coeffs">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="tf" target="radixes">
+  <data key="d1">3</data>
+  <data key="d2">dependency+virtual</data>
+</edge>
+<edge source="tf" target="radix_offsets">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="tf" target="offsets">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="tf" target="_randomize">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="tf" target="fn">
+  <data key="d1">3</data>
+  <data key="d2">dependency+virtual</data>
+</edge>
+<edge source="tf" target="generate_one">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="tf" target="_get_permutations">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="tf" target="trace_fn">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="tf" target="x">
+  <data key="d1">9</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="tf" target="y">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="tf" target="args">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="tf" target="b">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="tf" target="kinetic_energy">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="tf" target="m">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="tf" target="state_extra">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="tf" target="step_size">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="tf" target="target_log_prob">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="tf" target="target_log_prob_fn">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="tf" target="energy_change">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="tf" target="is_accepted">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="tf" target="log_accept_ratio">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="tf" target="name">
+  <data key="d1">7</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="tf" target="p">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="tf" target="value">
+  <data key="d1">8</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="tf" target="seed">
+  <data key="d1">6</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="tf" target="self">
+  <data key="d1">4</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="tf" target="dtype">
+  <data key="d1">12</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="tf" target="loc">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="tf" target="scale">
+  <data key="d1">3</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="tf" target="scale_diag">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="tf" target="shift">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="tf" target="_fn">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="tf" target="mcmc_util">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="tf" target="salt">
+  <data key="d1">5</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="tf" target="scale_part">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="tf" target="scales">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="tf" target="seed_stream">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="tf" target="state_part">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="tf" target="state_parts">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="tf" target="a">
+  <data key="d1">3</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="tf" target="cat_probs">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="tf" target="log_probs">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="tf" target="np">
+  <data key="d1">3</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="tf" target="input_tensor">
+  <data key="d1">4</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="tf" target="keepdims">
+  <data key="d1">3</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="tf" target="autoregressive_coef">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="tf" target="num_results">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="tf" target="shape">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="tf" target="stream">
+  <data key="d1">3</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="fn_wrapper" target="full_trace">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="fn_wrapper" target="state">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="fn" target="tf">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="state" target="fn">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="state" target="full_trace">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="state" target="trace">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="state" target="leapfrog_step">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="state" target="leapfrog_wrapper_state">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="state" target="tf">
+  <data key="d1">3</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="state" target="trace_fn">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="state" target="x">
+  <data key="d1">3</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="state" target="_">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="state" target="kinetic_energy">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="state" target="kinetic_energy_fn">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="state" target="momentum">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="state" target="state_extra">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="state" target="state_grads">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="state" target="step_size">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="state" target="target_log_prob">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="state" target="target_log_prob_fn">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="trace_fn" target="full_trace">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="trace_fn" target="state">
+  <data key="d1">3</data>
+  <data key="d2">dependency+virtual</data>
+</edge>
+<edge source="trace_fn" target="tf">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="trace_fn" target="x">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="args" target="call_fn">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="args" target="grads">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="args" target="original_space_args">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="args" target="event_ndims">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="args" target="leapfrog_trace_wrapper_fn">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="args" target="extra">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="args" target="ret">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="args" target="tf">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="args" target="x">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="ret" target="args">
+  <data key="d1">3</data>
+  <data key="d2">dependency+virtual</data>
+</edge>
+<edge source="ret" target="fn">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="ret" target="grads">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="ret" target="call_and_grads">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="ret" target="momentum_sample_fn">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="grads" target="call_and_grads">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="extra" target="args">
+  <data key="d1">3</data>
+  <data key="d2">dependency+virtual</data>
+</edge>
+<edge source="extra" target="fn">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="extra" target="call_and_grads">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="extra" target="original_space_args">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="extra" target="log_prob_fn">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="extra" target="wrapper">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="from_structure" target="flat_from">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="flat_from" target="flat_to">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="to_structure" target="flat_to">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="wrapper" target="transform_log_prob_fn">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="event_ndims" target="tf">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="event_ndims" target="x">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="original_space_args" target="wrapper">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="original_space_log_prob" target="original_space_args">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="original_space_log_prob" target="log_prob_fn">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="original_space_log_prob" target="wrapper">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="bijector_" target="original_space_args">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="bijector" target="bijector_">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="leapfrog_step_state" target="state">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="leapfrog_step_state" target="state_grads">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="leapfrog_step_state" target="momentum">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="target_log_prob" target="state">
+  <data key="d1">3</data>
+  <data key="d2">dependency+virtual</data>
+</edge>
+<edge source="target_log_prob" target="target_log_prob_fn">
+  <data key="d1">3</data>
+  <data key="d2">dependency+virtual</data>
+</edge>
+<edge source="target_log_prob" target="leapfrog_step">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="target_log_prob" target="current_energy">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="target_log_prob" target="leapfrog_wrapper_state">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="target_log_prob" target="leapfrog_trace_wrapper_fn">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="target_log_prob" target="leapfrog_wrapper">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="target_log_prob" target="num_leapfrog_steps">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="target_log_prob" target="trace_fn">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="target_log_prob" target="proposed_energy">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="target_log_prob" target="_">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="target_log_prob" target="kinetic_energy">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="target_log_prob" target="kinetic_energy_fn">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="target_log_prob" target="momentum">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="target_log_prob" target="state_extra">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="target_log_prob" target="state_grads">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="target_log_prob" target="step_size">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="target_log_prob" target="tf">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="target_log_prob" target="x">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="state_extra" target="state">
+  <data key="d1">3</data>
+  <data key="d2">dependency+virtual</data>
+</edge>
+<edge source="state_extra" target="target_log_prob_fn">
+  <data key="d1">3</data>
+  <data key="d2">dependency+virtual</data>
+</edge>
+<edge source="state_extra" target="leapfrog_step">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="state_extra" target="leapfrog_wrapper_state">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="state_extra" target="leapfrog_trace_wrapper_fn">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="state_extra" target="leapfrog_wrapper">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="state_extra" target="num_leapfrog_steps">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="state_extra" target="trace_fn">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="state_extra" target="_">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="state_extra" target="kinetic_energy">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="state_extra" target="kinetic_energy_fn">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="state_extra" target="momentum">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="state_extra" target="state_grads">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="state_extra" target="step_size">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="state_extra" target="target_log_prob">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="state_extra" target="tf">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="state_extra" target="x">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="momentum_grads" target="kinetic_energy_fn">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="momentum_grads" target="momentum">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="momentum_grads" target="state">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="target_log_prob_fn" target="_">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="target_log_prob_fn" target="kinetic_energy">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="target_log_prob_fn" target="kinetic_energy_fn">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="target_log_prob_fn" target="momentum">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="target_log_prob_fn" target="state">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="target_log_prob_fn" target="state_extra">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="target_log_prob_fn" target="state_grads">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="target_log_prob_fn" target="step_size">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="target_log_prob_fn" target="target_log_prob">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="target_log_prob_fn" target="tf">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="target_log_prob_fn" target="x">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="kinetic_energy_fn" target="_">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="kinetic_energy_fn" target="kinetic_energy">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="kinetic_energy_fn" target="momentum">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="kinetic_energy_fn" target="state">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="kinetic_energy_fn" target="state_extra">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="kinetic_energy_fn" target="state_grads">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="kinetic_energy_fn" target="step_size">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="kinetic_energy_fn" target="target_log_prob">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="kinetic_energy_fn" target="target_log_prob_fn">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="kinetic_energy_fn" target="tf">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="kinetic_energy_fn" target="x">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="momentum" target="leapfrog_step">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="momentum" target="ret">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="momentum" target="momentum_sample_fn">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="momentum" target="tf">
+  <data key="d1">3</data>
+  <data key="d2">dependency+virtual</data>
+</edge>
+<edge source="momentum" target="leapfrog_wrapper_state">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="momentum" target="_">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="momentum" target="kinetic_energy">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="momentum" target="kinetic_energy_fn">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="momentum" target="state">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="momentum" target="state_extra">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="momentum" target="state_grads">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="momentum" target="step_size">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="momentum" target="target_log_prob">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="momentum" target="target_log_prob_fn">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="momentum" target="x">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="m" target="momentum">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="m" target="partial_entropies">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="m" target="tf">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="step_size" target="state">
+  <data key="d1">3</data>
+  <data key="d2">dependency+virtual</data>
+</edge>
+<edge source="step_size" target="momentum">
+  <data key="d1">3</data>
+  <data key="d2">dependency+virtual</data>
+</edge>
+<edge source="step_size" target="_">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="step_size" target="kinetic_energy">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="step_size" target="kinetic_energy_fn">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="step_size" target="state_extra">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="step_size" target="state_grads">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="step_size" target="target_log_prob">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="step_size" target="target_log_prob_fn">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="step_size" target="tf">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="step_size" target="x">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="_" target="state">
+  <data key="d1">3</data>
+  <data key="d2">dependency+virtual</data>
+</edge>
+<edge source="_" target="target_log_prob_fn">
+  <data key="d1">3</data>
+  <data key="d2">dependency+virtual</data>
+</edge>
+<edge source="_" target="kinetic_energy_fn">
+  <data key="d1">3</data>
+  <data key="d2">dependency+virtual</data>
+</edge>
+<edge source="_" target="momentum">
+  <data key="d1">3</data>
+  <data key="d2">dependency+virtual</data>
+</edge>
+<edge source="_" target="leapfrog_wrapper_state">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="_" target="leapfrog_trace_wrapper_fn">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="_" target="leapfrog_wrapper">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="_" target="num_leapfrog_steps">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="_" target="trace_fn">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="_" target="leapfrog_state">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="_" target="energy_change">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="_" target="current_state">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="_" target="proposed_state">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="_" target="seed">
+  <data key="d1">3</data>
+  <data key="d2">dependency+virtual</data>
+</edge>
+<edge source="_" target="fn">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="_" target="kinetic_energy">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="_" target="state_extra">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="_" target="state_grads">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="_" target="step_size">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="_" target="target_log_prob">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="_" target="tf">
+  <data key="d1">6</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="_" target="x">
+  <data key="d1">4</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="_" target="dtype">
+  <data key="d1">3</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="_" target="axis">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="_" target="name">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="_" target="value">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="kinetic_energy" target="kinetic_energy_fn">
+  <data key="d1">3</data>
+  <data key="d2">dependency+virtual</data>
+</edge>
+<edge source="kinetic_energy" target="momentum">
+  <data key="d1">3</data>
+  <data key="d2">dependency+virtual</data>
+</edge>
+<edge source="kinetic_energy" target="leapfrog_step">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="kinetic_energy" target="current_energy">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="kinetic_energy" target="leapfrog_state">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="kinetic_energy" target="proposed_energy">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="kinetic_energy" target="_">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="kinetic_energy" target="state">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="kinetic_energy" target="state_extra">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="kinetic_energy" target="state_grads">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="kinetic_energy" target="step_size">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="kinetic_energy" target="target_log_prob">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="kinetic_energy" target="target_log_prob_fn">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="kinetic_energy" target="tf">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="kinetic_energy" target="x">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="state_grads" target="state">
+  <data key="d1">3</data>
+  <data key="d2">dependency+virtual</data>
+</edge>
+<edge source="state_grads" target="target_log_prob_fn">
+  <data key="d1">3</data>
+  <data key="d2">dependency+virtual</data>
+</edge>
+<edge source="state_grads" target="momentum">
+  <data key="d1">3</data>
+  <data key="d2">dependency+virtual</data>
+</edge>
+<edge source="state_grads" target="leapfrog_step">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="state_grads" target="leapfrog_wrapper_state">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="state_grads" target="_">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="state_grads" target="kinetic_energy">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="state_grads" target="kinetic_energy_fn">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="state_grads" target="state_extra">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="state_grads" target="step_size">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="state_grads" target="target_log_prob">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="state_grads" target="tf">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="state_grads" target="x">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="kinetic_energy_extra" target="kinetic_energy_fn">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="kinetic_energy_extra" target="momentum">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="kinetic_energy_extra" target="leapfrog_step">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="s" target="momentum">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="s" target="state">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="sg" target="momentum">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="mg" target="state">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="p" target="flat_current">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="p" target="tf">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="log_uniform" target="is_accepted">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="log_uniform" target="metropolis_hastings_step">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="value" target="energy_change">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="value" target="x">
+  <data key="d1">5</data>
+  <data key="d2">dependency+virtual</data>
+</edge>
+<edge source="value" target="max_lags">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="value" target="sample_axis">
+  <data key="d1">3</data>
+  <data key="d2">dependency+virtual</data>
+</edge>
+<edge source="value" target="y">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="value" target="event_axis">
+  <data key="d1">3</data>
+  <data key="d2">dependency+virtual</data>
+</edge>
+<edge source="value" target="batch_axis">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="value" target="values">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="value" target="ndims">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="value" target="axis">
+  <data key="d1">6</data>
+  <data key="d2">dependency+virtual</data>
+</edge>
+<edge source="value" target="num_results">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="value" target="sequence_indices">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="value" target="name">
+  <data key="d1">6</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="value" target="tf">
+  <data key="d1">8</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="value" target="dtype">
+  <data key="d1">6</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="value" target="input_tensor">
+  <data key="d1">3</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="value" target="keepdims">
+  <data key="d1">3</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="value" target="np">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="value" target="cov">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="value" target="_">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="value" target="a">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="name" target="next_state">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="name" target="coeffs">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="name" target="labels">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="name" target="x">
+  <data key="d1">4</data>
+  <data key="d2">dependency+virtual</data>
+</edge>
+<edge source="name" target="max_lags">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="name" target="y">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="name" target="event_axis">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="name" target="sample_axis">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="name" target="batch_axis">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="name" target="values">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="name" target="ndims">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="name" target="axis">
+  <data key="d1">5</data>
+  <data key="d2">dependency+virtual</data>
+</edge>
+<edge source="name" target="tf">
+  <data key="d1">7</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="name" target="value">
+  <data key="d1">6</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="name" target="dtype">
+  <data key="d1">4</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="name" target="input_tensor">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="name" target="keepdims">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="name" target="np">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="name" target="_">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="name" target="a">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="log_accept_ratio" target="is_accepted">
+  <data key="d1">3</data>
+  <data key="d2">dependency+virtual</data>
+</edge>
+<edge source="log_accept_ratio" target="hamiltonian_monte_carlo">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="log_accept_ratio" target="current_state">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="log_accept_ratio" target="energy_change">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="log_accept_ratio" target="proposed_state">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="log_accept_ratio" target="tf">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="next_state" target="metropolis_hastings_step">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="c" target="flat_current">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="is_accepted" target="next_state">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="is_accepted" target="metropolis_hastings_step">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="is_accepted" target="energy_change">
+  <data key="d1">3</data>
+  <data key="d2">dependency+virtual</data>
+</edge>
+<edge source="is_accepted" target="current_state">
+  <data key="d1">3</data>
+  <data key="d2">dependency+virtual</data>
+</edge>
+<edge source="is_accepted" target="proposed_state">
+  <data key="d1">3</data>
+  <data key="d2">dependency+virtual</data>
+</edge>
+<edge source="is_accepted" target="seed">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="is_accepted" target="hamiltonian_monte_carlo">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="is_accepted" target="log_accept_ratio">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="is_accepted" target="tf">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="energy_change" target="log_accept_ratio">
+  <data key="d1">3</data>
+  <data key="d2">dependency+virtual</data>
+</edge>
+<edge source="energy_change" target="hamiltonian_monte_carlo">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="energy_change" target="current_state">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="energy_change" target="is_accepted">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="energy_change" target="proposed_state">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="energy_change" target="tf">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="current_state" target="flat_current">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="current_state" target="flat_proposed">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="current_state" target="next_state">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="current_state" target="state_grads">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="current_state" target="target_log_prob">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="current_state" target="state">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="current_state" target="state_extra">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="current_state" target="energy_change">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="current_state" target="is_accepted">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="current_state" target="log_accept_ratio">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="current_state" target="proposed_state">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="current_state" target="tf">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="flat_current" target="current_state">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="flat_proposed" target="flat_current">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="proposed_state" target="flat_proposed">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="proposed_state" target="next_state">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="proposed_state" target="leapfrog_state">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="proposed_state" target="state_grads">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="proposed_state" target="state_extra">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="proposed_state" target="state">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="proposed_state" target="target_log_prob">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="proposed_state" target="hamiltonian_monte_carlo">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="proposed_state" target="current_state">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="proposed_state" target="energy_change">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="proposed_state" target="is_accepted">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="proposed_state" target="log_accept_ratio">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="proposed_state" target="tf">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="leapfrog_state" target="step_size">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="leapfrog_state" target="kinetic_energy_fn">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="leapfrog_state" target="target_log_prob_fn">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="leapfrog_state" target="leapfrog_wrapper_state">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="leapfrog_state" target="leapfrog_trace_wrapper_fn">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="leapfrog_state" target="leapfrog_wrapper">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="leapfrog_state" target="num_leapfrog_steps">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="leapfrog_state" target="trace_fn">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="current_energy" target="energy_change">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="hmc_state" target="state">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="hmc_state" target="state_grads">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="hmc_state" target="target_log_prob">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="hmc_state" target="state_extra">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="hmc_state" target="energy_change">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="hmc_state" target="current_state">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="hmc_state" target="proposed_state">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="hmc_state" target="seed">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="hmc_state" target="hamiltonian_monte_carlo">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="leapfrog_extra" target="step_size">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="leapfrog_extra" target="leapfrog_state">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="leapfrog_extra" target="kinetic_energy_fn">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="leapfrog_extra" target="target_log_prob_fn">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="leapfrog_extra" target="leapfrog_wrapper">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="leapfrog_extra" target="leapfrog_trace_wrapper_fn">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="leapfrog_trace" target="leapfrog_wrapper_state">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="leapfrog_trace" target="leapfrog_trace_wrapper_fn">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="leapfrog_trace" target="leapfrog_wrapper">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="leapfrog_trace" target="num_leapfrog_steps">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="leapfrog_trace" target="trace_fn">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="leapfrog_trace" target="hamiltonian_monte_carlo">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="proposed_hmc_state" target="hamiltonian_monte_carlo">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="seed" target="seed_stream">
+  <data key="d1">3</data>
+  <data key="d2">dependency+virtual</data>
+</edge>
+<edge source="seed" target="stream">
+  <data key="d1">4</data>
+  <data key="d2">dependency+virtual</data>
+</edge>
+<edge source="seed" target="zero_correction">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="seed" target="_">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="seed" target="tf">
+  <data key="d1">6</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="seed" target="_fn">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="seed" target="mcmc_util">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="seed" target="next_state_parts">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="seed" target="salt">
+  <data key="d1">5</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="seed" target="scale">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="seed" target="scale_part">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="seed" target="scales">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="seed" target="state_part">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="seed" target="state_parts">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="seed" target="coeffs">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="seed" target="dtype">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="seed" target="input_tensor">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="seed" target="num_results">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="seed" target="radixes">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="seed" target="shape">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="proposed_energy" target="energy_change">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="new_control" target="_get_new_control">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="set_point" target="new_control">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="set_point" target="control">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="adaptation_rate" target="new_control">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="output" target="new_control">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="output" target="control">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="control" target="new_control">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="dilation" target="new_dim">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="padding" target="new_dim">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="input_shape" target="space">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="self" target="new_dim">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="self" target="config">
+  <data key="d1">3</data>
+  <data key="d2">dependency+virtual</data>
+</edge>
+<edge source="self" target="distribution_entropies">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="self" target="cat_probs">
+  <data key="d1">3</data>
+  <data key="d2">dependency+virtual</data>
+</edge>
+<edge source="self" target="_z">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="self" target="_inv_z">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="self" target="tf">
+  <data key="d1">4</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="self" target="base_config">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="self" target="get_config">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="self" target="log_probs">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="space" target="new_dim">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="stride" target="new_dim">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="function" target="self">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="function" target="function_key">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="function" target="function_type">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="function" target="function_name">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="function_type" target="config">
+  <data key="d1">3</data>
+  <data key="d2">dependency+virtual</data>
+</edge>
+<edge source="function_type" target="function_key">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="function_key" target="function_type">
+  <data key="d1">3</data>
+  <data key="d2">dependency+virtual</data>
+</edge>
+<edge source="function_key" target="config">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="base_config" target="get_config">
+  <data key="d1">3</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="base_config" target="config">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="base_config" target="self">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="function_name" target="config">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="config" target="get_config">
+  <data key="d1">3</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="config" target="serial">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="config" target="from_config">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="config" target="base_config">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="config" target="function_key">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="config" target="function_type">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="config" target="self">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="get_config" target="base_config">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="get_config" target="config">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="get_config" target="self">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="serial" target="config">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="perturb_diag" target="dtype">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="identity_multiplier" target="dtype">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="identity_multiplier" target="scale">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="identity_multiplier" target="_create_scale_operator">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="loc" target="scale">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="loc" target="coeffs">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="loc" target="tf">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="scale_tril" target="scale">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="shift" target="scale">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="shift" target="x_rotated">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="shift" target="axis">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="shift" target="dtype">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="shift" target="tf">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="tril" target="dtype">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="tril" target="scale">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="dtype" target="features">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="dtype" target="labels">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="dtype" target="x_rotated_pad">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="dtype" target="shifted_product">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="dtype" target="x_len">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="dtype" target="max_lags">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="dtype" target="denominator">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="dtype" target="sample_axis">
+  <data key="d1">3</data>
+  <data key="d2">dependency+virtual</data>
+</edge>
+<edge source="dtype" target="y">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="dtype" target="event_axis">
+  <data key="d1">3</data>
+  <data key="d2">dependency+virtual</data>
+</edge>
+<edge source="dtype" target="batch_axis">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="dtype" target="ndims">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="dtype" target="axis">
+  <data key="d1">8</data>
+  <data key="d2">dependency+virtual</data>
+</edge>
+<edge source="dtype" target="one">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="dtype" target="two">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="dtype" target="half">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="dtype" target="fixed_entries">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="dtype" target="autoregressive_coef_mask">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="dtype" target="broadcast_ones">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="dtype" target="radixes">
+  <data key="d1">3</data>
+  <data key="d2">dependency+virtual</data>
+</edge>
+<edge source="dtype" target="zero_correction">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="dtype" target="coeffs">
+  <data key="d1">3</data>
+  <data key="d2">dependency+virtual</data>
+</edge>
+<edge source="dtype" target="scale_diag">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="dtype" target="shift">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="dtype" target="tf">
+  <data key="d1">12</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="dtype" target="_">
+  <data key="d1">3</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="dtype" target="np">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="dtype" target="input_tensor">
+  <data key="d1">4</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="dtype" target="keepdims">
+  <data key="d1">3</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="dtype" target="name">
+  <data key="d1">4</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="dtype" target="value">
+  <data key="d1">6</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="dtype" target="x">
+  <data key="d1">4</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="dtype" target="cov">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="dtype" target="a">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="dtype" target="autoregressive_coef">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="dtype" target="salt">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="dtype" target="seed">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="dtype" target="shape">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="dtype" target="stream">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="validate_args" target="scale">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="distribution_util" target="_create_scale_operator">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="distribution_util" target="_maybe_assert_valid_concentration">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="distribution_util" target="_maybe_assert_valid_sample">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="perturb_factor" target="dtype">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="perturb_factor" target="shape_hint">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="assert_positive" target="scale">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="diag" target="dtype">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="diag" target="scale">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="scale_identity_multiplier" target="scale">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="axis" target="shape_hint">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="axis" target="cat_probs">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="axis" target="shift">
+  <data key="d1">3</data>
+  <data key="d2">dependency+virtual</data>
+</edge>
+<edge source="axis" target="x_rotated">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="axis" target="x_rotated_pad">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="axis" target="x">
+  <data key="d1">4</data>
+  <data key="d2">dependency+virtual</data>
+</edge>
+<edge source="axis" target="y">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="axis" target="positive_axis">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="axis" target="keep_axis">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="axis" target="_">
+  <data key="d1">3</data>
+  <data key="d2">dependency+virtual</data>
+</edge>
+<edge source="axis" target="scale_diag">
+  <data key="d1">3</data>
+  <data key="d2">dependency+virtual</data>
+</edge>
+<edge source="axis" target="bias">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="axis" target="base_values">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="axis" target="dtype">
+  <data key="d1">7</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="axis" target="tf">
+  <data key="d1">8</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="axis" target="input_tensor">
+  <data key="d1">3</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="axis" target="keepdims">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="axis" target="name">
+  <data key="d1">4</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="axis" target="value">
+  <data key="d1">5</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="axis" target="a">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="shape_hint" target="scale">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="scale" target="_create_scale_operator">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="scale" target="scales">
+  <data key="d1">3</data>
+  <data key="d2">dependency+virtual</data>
+</edge>
+<edge source="scale" target="tf">
+  <data key="d1">3</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="scale" target="_fn">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="scale" target="mcmc_util">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="scale" target="next_state_parts">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="scale" target="salt">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="scale" target="scale_part">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="scale" target="seed">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="scale" target="seed_stream">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="scale" target="state_part">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="scale" target="state_parts">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="scale_diag" target="scale">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="scale_diag" target="axis">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="scale_diag" target="dtype">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="scale_diag" target="tf">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="seed_stream" target="_fn">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="seed_stream" target="mcmc_util">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="seed_stream" target="next_state_parts">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="seed_stream" target="salt">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="seed_stream" target="scale">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="seed_stream" target="scale_part">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="seed_stream" target="scales">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="seed_stream" target="seed">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="seed_stream" target="state_part">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="seed_stream" target="state_parts">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="seed_stream" target="tf">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="scales" target="state_parts">
+  <data key="d1">3</data>
+  <data key="d2">dependency+virtual</data>
+</edge>
+<edge source="scales" target="next_state_parts">
+  <data key="d1">3</data>
+  <data key="d2">dependency+virtual</data>
+</edge>
+<edge source="scales" target="_fn">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="scales" target="mcmc_util">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="scales" target="salt">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="scales" target="scale">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="scales" target="scale_part">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="scales" target="seed">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="scales" target="seed_stream">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="scales" target="state_part">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="scales" target="tf">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="mcmc_util" target="scales">
+  <data key="d1">3</data>
+  <data key="d2">dependency+virtual</data>
+</edge>
+<edge source="mcmc_util" target="_fn">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="mcmc_util" target="next_state_parts">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="mcmc_util" target="salt">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="mcmc_util" target="scale">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="mcmc_util" target="scale_part">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="mcmc_util" target="seed">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="mcmc_util" target="seed_stream">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="mcmc_util" target="state_part">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="mcmc_util" target="state_parts">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="mcmc_util" target="tf">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="next_state_parts" target="_fn">
+  <data key="d1">3</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="next_state_parts" target="mcmc_util">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="next_state_parts" target="salt">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="next_state_parts" target="scale">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="next_state_parts" target="scale_part">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="next_state_parts" target="scales">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="next_state_parts" target="seed">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="next_state_parts" target="seed_stream">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="next_state_parts" target="state_part">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="next_state_parts" target="state_parts">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="next_state_parts" target="tf">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="scale_part" target="next_state_parts">
+  <data key="d1">3</data>
+  <data key="d2">dependency+virtual</data>
+</edge>
+<edge source="scale_part" target="_fn">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="scale_part" target="mcmc_util">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="scale_part" target="salt">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="scale_part" target="scale">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="scale_part" target="scales">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="scale_part" target="seed">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="scale_part" target="seed_stream">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="scale_part" target="state_part">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="scale_part" target="state_parts">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="scale_part" target="tf">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="state_part" target="next_state_parts">
+  <data key="d1">3</data>
+  <data key="d2">dependency+virtual</data>
+</edge>
+<edge source="state_part" target="_fn">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="state_part" target="mcmc_util">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="state_part" target="salt">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="state_part" target="scale">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="state_part" target="scale_part">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="state_part" target="scales">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="state_part" target="seed">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="state_part" target="seed_stream">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="state_part" target="state_parts">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="state_part" target="tf">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="salt" target="seed_stream">
+  <data key="d1">3</data>
+  <data key="d2">dependency+virtual</data>
+</edge>
+<edge source="salt" target="stream">
+  <data key="d1">4</data>
+  <data key="d2">dependency+virtual</data>
+</edge>
+<edge source="salt" target="_fn">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="salt" target="mcmc_util">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="salt" target="next_state_parts">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="salt" target="scale">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="salt" target="scale_part">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="salt" target="scales">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="salt" target="seed">
+  <data key="d1">5</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="salt" target="state_part">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="salt" target="state_parts">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="salt" target="tf">
+  <data key="d1">5</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="salt" target="coeffs">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="salt" target="dtype">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="salt" target="input_tensor">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="salt" target="num_results">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="salt" target="radixes">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="salt" target="shape">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="_fn" target="random_walk_normal_fn">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="_fn" target="random_walk_uniform_fn">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="_fn" target="mcmc_util">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="_fn" target="next_state_parts">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="_fn" target="salt">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="_fn" target="scale">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="_fn" target="scale_part">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="_fn" target="scales">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="_fn" target="seed">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="_fn" target="seed_stream">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="_fn" target="state_part">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="_fn" target="state_parts">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="_fn" target="tf">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="state_parts" target="next_state_parts">
+  <data key="d1">3</data>
+  <data key="d2">dependency+virtual</data>
+</edge>
+<edge source="state_parts" target="_fn">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="state_parts" target="mcmc_util">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="state_parts" target="salt">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="state_parts" target="scale">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="state_parts" target="scale_part">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="state_parts" target="scales">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="state_parts" target="seed">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="state_parts" target="seed_stream">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="state_parts" target="state_part">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="state_parts" target="tf">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="tensorshape_util" target="num_reduce_dims">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="num_reduce_dims" target="reduce_dims">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="i" target="reduce_dims">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="prefer_static" target="num_reduce_dims">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="prefer_static" target="_get_default_reinterpreted_batch_ndims">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="a" target="p">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="a" target="x_permed">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="a" target="y_permed">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="a" target="cov">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="a" target="tf">
+  <data key="d1">3</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="a" target="axis">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="a" target="dtype">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="a" target="name">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="a" target="value">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="ndims" target="ndims_">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="ndims" target="positive_axis">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="distribution" target="ndims">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="expanded_x" target="_expand_to_event_rank">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="distribution_entropies" target="partial_entropies">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="log_probs" target="cat_probs">
+  <data key="d1">3</data>
+  <data key="d2">dependency+virtual</data>
+</edge>
+<edge source="log_probs" target="which_softmax">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="log_probs" target="self">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="log_probs" target="tf">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="d" target="distribution_entropies">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="c_p" target="partial_entropies">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="cat_probs" target="partial_entropies">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="cat_probs" target="self">
+  <data key="d1">3</data>
+  <data key="d2">dependency+virtual</data>
+</edge>
+<edge source="cat_probs" target="_cat_probs">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="cat_probs" target="log_probs">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="cat_probs" target="tf">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="num" target="cat_probs">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="coeffs" target="seed">
+  <data key="d1">3</data>
+  <data key="d2">dependency+virtual</data>
+</edge>
+<edge source="coeffs" target="radixes">
+  <data key="d1">3</data>
+  <data key="d2">dependency+virtual</data>
+</edge>
+<edge source="coeffs" target="base_values">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="coeffs" target="given_dtype">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="coeffs" target="permuted_coeffs">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="coeffs" target="tf">
+  <data key="d1">3</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="coeffs" target="dtype">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="coeffs" target="input_tensor">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="coeffs" target="salt">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="coeffs" target="shape">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="coeffs" target="stream">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="counts" target="specific_category">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="specific_category" target="labels">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="features" target="covertype">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="data" target="features">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="data" target="labels">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="return_counts" target="counts">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="return_counts" target="_">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="d2" target="concentration_diff">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="d1" target="concentration_diff">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="digamma_sum_d1" target="digamma_diff">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="concentration" target="_maybe_assert_valid_concentration">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="pad_length" target="x_rotated_pad">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="util" target="x_len">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="util" target="auto_correlation">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="denominator" target="shifted_product_rotated">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="back" target="x_rotated_pad">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="max_lags" target="max_lags_">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="max_lags" target="x_len">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="chopped_shape" target="max_lags">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="chopped_shape" target="x_len">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="x_rotated" target="x_rotated_pad">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="count" target="x_rotated_pad">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="fft_x_rotated_pad" target="spectral_density">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="keepdims" target="x_rotated">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="keepdims" target="x">
+  <data key="d1">6</data>
+  <data key="d2">dependency+virtual</data>
+</edge>
+<edge source="keepdims" target="y">
+  <data key="d1">4</data>
+  <data key="d2">dependency+virtual</data>
+</edge>
+<edge source="keepdims" target="correlation">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="keepdims" target="variance">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="keepdims" target="axis">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="keepdims" target="dtype">
+  <data key="d1">3</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="keepdims" target="input_tensor">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="keepdims" target="name">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="keepdims" target="tf">
+  <data key="d1">3</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="keepdims" target="value">
+  <data key="d1">3</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="keepdims" target="cov">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="keepdims" target="event_axis">
+  <data key="d1">4</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="keepdims" target="sample_axis">
+  <data key="d1">4</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="spectral_density" target="shifted_product">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="shifted_product_chopped" target="shifted_product_rotated">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="input_tensor" target="x_rotated">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="input_tensor" target="x">
+  <data key="d1">3</data>
+  <data key="d2">dependency+virtual</data>
+</edge>
+<edge source="input_tensor" target="y">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="input_tensor" target="n_samples">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="input_tensor" target="n_events">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="input_tensor" target="max_size">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="input_tensor" target="base_values">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="input_tensor" target="radix_sum">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="input_tensor" target="axis">
+  <data key="d1">3</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="input_tensor" target="dtype">
+  <data key="d1">4</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="input_tensor" target="keepdims">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="input_tensor" target="name">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="input_tensor" target="tf">
+  <data key="d1">4</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="input_tensor" target="value">
+  <data key="d1">3</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="input_tensor" target="coeffs">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="input_tensor" target="radixes">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="input_tensor" target="salt">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="input_tensor" target="seed">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="input_tensor" target="shape">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="input_tensor" target="stream">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="x_rotated_pad" target="fft_x_rotated_pad">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="target_length" target="pad_length">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="x_len_float64" target="pad_length">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="rank" target="axis">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="rank" target="shift">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="shifted_product" target="shifted_product_chopped">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="x_len" target="x_len_float64">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="x_len" target="max_lags">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="x_len" target="denominator">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="cov" target="keepdims">
+  <data key="d1">3</data>
+  <data key="d2">dependency+virtual</data>
+</edge>
+<edge source="cov" target="sample_axis">
+  <data key="d1">3</data>
+  <data key="d2">dependency+virtual</data>
+</edge>
+<edge source="cov" target="event_axis">
+  <data key="d1">3</data>
+  <data key="d2">dependency+virtual</data>
+</edge>
+<edge source="cov" target="x">
+  <data key="d1">3</data>
+  <data key="d2">dependency+virtual</data>
+</edge>
+<edge source="cov" target="axis">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="cov" target="squeeze_axis">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="cov" target="covariance">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="cov" target="dtype">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="cov" target="tf">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="cov" target="value">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="sample_axis" target="x">
+  <data key="d1">5</data>
+  <data key="d2">dependency+virtual</data>
+</edge>
+<edge source="sample_axis" target="y">
+  <data key="d1">4</data>
+  <data key="d2">dependency+virtual</data>
+</edge>
+<edge source="sample_axis" target="tf">
+  <data key="d1">3</data>
+  <data key="d2">dependency+virtual</data>
+</edge>
+<edge source="sample_axis" target="perm_for_xy">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="sample_axis" target="squeeze_axis">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="sample_axis" target="correlation">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="sample_axis" target="variance">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="sample_axis" target="cov">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="sample_axis" target="dtype">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="sample_axis" target="event_axis">
+  <data key="d1">4</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="sample_axis" target="keepdims">
+  <data key="d1">4</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="sample_axis" target="value">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="event_axis" target="tf">
+  <data key="d1">3</data>
+  <data key="d2">dependency+virtual</data>
+</edge>
+<edge source="event_axis" target="perm_for_xy">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="event_axis" target="event_ndims">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="event_axis" target="e_start">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="event_axis" target="e_len">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="event_axis" target="correlation">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="event_axis" target="variance">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="event_axis" target="cov">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="event_axis" target="dtype">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="event_axis" target="keepdims">
+  <data key="d1">4</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="event_axis" target="sample_axis">
+  <data key="d1">4</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="event_axis" target="value">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="event_axis" target="x">
+  <data key="d1">4</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="event_axis" target="y">
+  <data key="d1">3</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="perm_for_xy" target="x_permed">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="perm_for_xy" target="y_permed">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="sample_shape" target="sample_ndims">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="sample_shape" target="n_samples">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="event_shape" target="n_events">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="batch_axis" target="x">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="batch_axis" target="perm_for_xy">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="batch_axis" target="batch_ndims">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="x_permed" target="x_permed_flat">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="perm" target="x_permed">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="perm" target="y_permed">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="perm" target="cov">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="e_len" target="squeeze_axis">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="input" target="batch_ndims">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="input" target="event_ndims">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="input" target="sample_ndims">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="y_permed" target="y_permed_flat">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="e_start" target="squeeze_axis">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="values_" target="_make_list_or_1d_tensor">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="values" target="values_">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="values" target="_make_list_or_1d_tensor">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="positive_axis" target="_make_positive_axis">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="ndims_" target="a">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="two" target="_kl_normal_normal">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="n_b" target="s_b_squared">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="s_b_squared" target="ratio">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="s_b_squared" target="_kl_normal_normal">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="s_a_squared" target="ratio">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="one" target="_kl_normal_normal">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="n_a" target="one">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="n_a" target="two">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="n_a" target="half">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="n_a" target="s_a_squared">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="ratio" target="_kl_normal_normal">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="half" target="_kl_normal_normal">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="z" target="_inv_z">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="autoregressive_coef_mask" target="bottom_right_entry">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="autoregressive_coef" target="fixed_entries">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="autoregressive_coef" target="autoregressive_coef_mask">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="autoregressive_coef" target="bottom_right_entry">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="autoregressive_coef" target="broadcast_batch_shape">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="autoregressive_coef" target="bias">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="autoregressive_coef" target="dtype">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="autoregressive_coef" target="tf">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="broadcast_ones" target="scale_diag">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="broadcast_ones" target="bias">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="tfd" target="semilocal_linear_trend_transition_noise">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="slope_scale" target="broadcast_batch_shape">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="slope_scale" target="scale_diag">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="level_scale" target="broadcast_batch_shape">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="level_scale" target="broadcast_ones">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="level_scale" target="scale_diag">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="slope_mean" target="broadcast_batch_shape">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="slope_mean" target="bias">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="broadcast_batch_shape" target="broadcast_ones">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="stream" target="coeffs">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="stream" target="dtype">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="stream" target="input_tensor">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="stream" target="num_results">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="stream" target="radixes">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="stream" target="salt">
+  <data key="d1">3</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="stream" target="seed">
+  <data key="d1">3</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="stream" target="shape">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="stream" target="tf">
+  <data key="d1">3</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="num_results" target="sample_range">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="num_results" target="salt">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="num_results" target="seed">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="num_results" target="stream">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="num_results" target="tf">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="shape" target="radixes">
+  <data key="d1">3</data>
+  <data key="d2">dependency+virtual</data>
+</edge>
+<edge source="shape" target="perms">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="shape" target="radix_offsets">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="shape" target="coeffs">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="shape" target="dtype">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="shape" target="input_tensor">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="shape" target="salt">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="shape" target="seed">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="shape" target="stream">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="shape" target="tf">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="weight_mask" target="capped_exponents">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="radixes" target="weights">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="radixes" target="coeffs">
+  <data key="d1">3</data>
+  <data key="d2">dependency+virtual</data>
+</edge>
+<edge source="radixes" target="zero_correction">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="radixes" target="radix_sum">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="radixes" target="dtype">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="radixes" target="input_tensor">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="radixes" target="salt">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="radixes" target="seed">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="radixes" target="shape">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="radixes" target="stream">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="radixes" target="tf">
+  <data key="d1">2</data>
+  <data key="d2">virtual</data>
+</edge>
+<edge source="weights" target="coeffs">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="weights" target="base_values">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="_PRIMES" target="radixes">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="exponents_by_axes" target="weight_mask">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="exponents_by_axes" target="capped_exponents">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="base_values" target="sample_halton_sequence">
+  <data key="d1">1</data>
+  <data key="d2">usage</data>
+</edge>
+<edge source="dim" target="radixes">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="dim" target="exponents_by_axes">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="dim" target="zero_correction">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="indices" target="dtype">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="indices" target="num_results">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="indices" target="sequence_indices">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="indices" target="coeffs">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="max_sizes_by_axes" target="tf">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="max_sizes_by_axes" target="radixes">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="max_sizes_by_axes" target="max_size">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="max_sizes_by_axes" target="weight_mask">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="max_sizes_by_axes" target="zero_correction">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="capped_exponents" target="weights">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="radix_offsets" target="offsets">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="perms" target="num_coeffs">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="perms" target="seed">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="perms" target="radixes">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="perms" target="permuted_coeffs">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="radix_sum" target="offsets">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+<edge source="offsets" target="permuted_coeffs">
+  <data key="d1">1</data>
+  <data key="d2">dependency</data>
+</edge>
+</graph></graphml>

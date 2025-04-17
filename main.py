@@ -137,7 +137,7 @@ class SimpleGCN(nn.Module):
 # ---------------------------
 in_channels = data.x.size(1)  # 773
 hidden_channels = 768
-out_channels = 768
+out_channels = 768 #[1, 768] -- 128
 model_gcn = SimpleGCN(in_channels, hidden_channels, out_channels)
 optimizer = torch.optim.Adam(model_gcn.parameters(), lr=0.001)
 
@@ -162,8 +162,8 @@ b2 = Benchmark.build("idbench", variant="medium", metric="relatedness")
 id1_list, id2_list = b1.get_inputs()  # Lists of variable names
 
 # Encode all benchmark pairs using our model.
-emb_id1 = model_gcn.encode(id1_list)
-emb_id2 = model_gcn.encode(id2_list)
+emb_id1 = model.encode(id1_list)
+emb_id2 = model.encode(id2_list)
 print(emb_id2.shape)
 print(emb_id1.shape)
 predicted = F.cosine_similarity(emb_id1, emb_id2).tolist()
@@ -172,23 +172,5 @@ print("\nBenchmark evaluation (similarity):")
 print(b1.evaluate(predicted))
 print(b2.evaluate(predicted))
 print(b1.evaluate(model.score(id1_list, id2_list)))
-# ---------------------------
-# Step 9: Use the encode method to obtain refined embeddings for given variables.
-# ---------------------------
-embeddings_for_vars = model_gcn.encode(["number", "values"])
-print("\nRefined embeddings for 'number' and 'values':")
-print(embeddings_for_vars)
 
-# ---------------------------
-# Step 10: Visualize the Graph and Save as PNG.
-# ---------------------------
-pos = nx.spring_layout(G, seed=42)
-plt.figure(figsize=(8, 6))
-nx.draw_networkx_nodes(G, pos, node_color="lightblue", node_size=500)
-nx.draw_networkx_edges(G, pos, arrowstyle='->', arrowsize=10)
-nx.draw_networkx_labels(G, pos, font_size=10)
-plt.title("Sample Variable Dependency Graph")
-plt.axis("off")
-plt.savefig("sample_vdg.png")
-plt.show()
-print("Graph visualization saved as sample_vdg.png")
+# --------------------------#
