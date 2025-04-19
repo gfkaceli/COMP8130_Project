@@ -223,13 +223,35 @@ logger.info("Updated node features with graph structural metrics:")
 for node, attr in global_vdg.nodes(data=True):
     logger.info(f"{node}: {attr['x']}")
 
+# ——— Convert list‑valued 'x' features into comma‑separated strings ———
+for node in global_vdg.nodes():
+    feat = global_vdg.nodes[node].get('x')
+    if isinstance(feat, list):
+        global_vdg.nodes[node]['x'] = ",".join(map(str, feat))
+
+# ——— Save the global VDG as GraphML ———
+output_graphml_file = "global_go_variable_dependency_graph.graphml"
+nx.write_graphml(global_vdg, output_graphml_file)
+logger.info(f"Global Go VDG saved as GraphML: {output_graphml_file}")
+
 # ---------------------------
 # Convert the global VDG to a PyTorch Geometric Data object.
 # ---------------------------
 logger.info("\nConverting global VDG to PyTorch Geometric Data object...")
 data = from_networkx(global_vdg)
+# Check if data.x is a tensor. If not, assume it's a list of strings and convert.
 if not isinstance(data.x, torch.Tensor):
-    data.x = torch.tensor(data.x, dtype=torch.float)
+    # data.x is expected to be a list of node features stored as comma-separated strings.
+    # We want to convert each string back into a list of floats.
+    new_x = []
+    for feature in data.x:
+        if isinstance(feature, str):
+            # Split the string by commas, strip spaces, and convert each token to float.
+            float_list = [float(x.strip()) for x in feature.split(",") if x.strip() != ""]
+            new_x.append(float_list)
+        else:
+            new_x.append(feature)
+    data.x = torch.tensor(new_x, dtype=torch.float)
 else:
     data.x = data.x.clone().detach().float()
 
